@@ -89,6 +89,8 @@ export default class HistoriaScene extends Phaser.Scene {
 
   comecar() {
     this.registry.set("indiceFase", 0);
+    this.registry.set("estrelas", 0); // começa a aventura com as estrelas zeradas
+    this.registry.set("estrelasPorEtapa", {});
     this.scene.start("EstacaoScene");
   }
 }

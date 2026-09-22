@@ -41,6 +41,9 @@ export default function Menu({ irPara }) {
         <button className="botao" onClick={() => irPara("acessibilidade")}>
           Acessibilidade
         </button>
+        <button className="botao" onClick={() => irPara("creditos")}>
+          Créditos
+        </button>
       </nav>
     </section>
   );
